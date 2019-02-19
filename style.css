@@ -11,7 +11,7 @@ body {
 .page {
 	height: 100vh;
 	justify-content: space-between;
-	background-color: #7e98c0;
+	background-color: white;
 }
 
 .column {
@@ -19,7 +19,8 @@ body {
 }
 
 .column--26 {
-	width: calc(26% - 8px);
+	width: 250px;
+	height: 60px;
 }
 
 .column--28 {
@@ -82,7 +83,7 @@ body {
 }
 
 .block-container__item--40 img {
-	width: 90%;
+	width: 100%;
 	height: 170px; 
 }
 
