@@ -18,13 +18,13 @@
   </head>
 	<body>
 		<div class="page flex-parent">
-			<div class="column column--26 flex-parent">
+			<div class="column column--26 flex-parent" onmouseenter="playAudio()">
 				<img src="dreamphoto1.jpg">
 				<div class="column-block column-block--25"></div>
 				<div class="column-block column-block--15"></div>
 		<div class="column-block column-block--60"></div>
-		<img src="dreamtext.png">
-        <audio autoplay loop> 
+				<img src="dreamtext.png">
+        <audio autoplay loop id="audioID"> 
             <source src="audiosounds.mp3" type="audio/mpeg">
               Your browser does not support this audio tag.
         </audio>
@@ -64,5 +64,6 @@
 					</div>
 				</div>
 			</div>
+			<script type="text/javascript" src="js.js"></script>
 	</body>
 </html>
