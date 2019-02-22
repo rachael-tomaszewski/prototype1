@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+.flex-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page {
+	height: 100vh;
+	justify-content: space-between;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.column--26 {
+	width: 250px;
+	height: 60px;
+}
+
+.column--28 {
+	width: calc(28% - 8px);
+
+}
+
+.column--46 {
+	width: calc(46% - 8px);
+}
+
+.column-block {
+	
+	width: 100%;
+}
+
+.column-block--15 {
+	height: calc(15% - 8px);
+}
+
+.column-block--25 {
+  height: calc(25% - 8px);
+}
+
+.column-block--60 {
+  height: calc(60% - 8px);
+}
+
+.column-block--35 {
+  height: calc(35% - 6px);
+}
+
+.column-block--65 {
+	height: calc(65% - 6px);
+}
+
+.column-block--half {
+	width: calc(50% - 6px);
+}
+
+.block-container {
+	width: 100%;
+}
+
+.block-container--top {
+	height: calc(65% - 6px);
+}
+
+.block-container--bottom {
+	height: calc(35% - 6px);
+}
+
+.block-container__item {
+	width: 100%;
+	height: 100%;
+}
+
+.block-container__item--40 {
+	width: calc(40% - 6px);
+}
+
+.block-container__item--40 img {
+	width: 100%;
+	height: 170px; 
+}
+
+.block-container__item--40:hover {
+
+}
+
+.block-container__item--60 {
+  width: calc(60% - 6px);
+}
+
+.block-container__item--60 img {
+	width: 250px;
+	height: 250px;
+}
+
+.block-container--bottom flex-parent img {
+	width: 250px;
+	height: 250px;
+}
+
+.column-block--60 img {
+	width: 250px;
+	height: 250px;
+}
+
+.column-block--15 img {
+  width: 150px;
+	height: 150px;
+}
+
+.column--28 img {
+  width: 480px;
+	height: 200px;
+}
+
+img {
+  opacity: 0.0;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+img:hover {
+	color: black;
+	opacity: 0.5;
+	transition: 5s;
+}
+
+.audio {
+  transition-delay: 2s;
+}
+
